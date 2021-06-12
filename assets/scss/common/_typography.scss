@@ -1,0 +1,33 @@
+h1,
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: $headings-color;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  font-weight: $h2-font-size;
+}
+
+p {
+  color: rgba(128, 128, 128, 1);
+  width: 100%;
+}
+
+a {
+  font-size: $a-font-size;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}

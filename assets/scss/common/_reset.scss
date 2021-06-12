@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div#__nuxt,
+#__layout,
+#__layout > div,
+#app {
+  min-height: 100vh;
+}
+
+@media (max-width: 767px) {
+  div#__nuxt,
+  #__layout {
+    min-height: 0 !important;
+  }
+}
+
+body {
+  color: $base-text-color;
+  background-color: $base-background-color;
+  font-family: $base-font-family;
+  min-width: $base-min-width;
+  font-style: normal;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: rgba(0, 0, 0, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: $base-link-color;
+}

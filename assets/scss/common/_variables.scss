@@ -1,0 +1,69 @@
+$black: rgba(0, 0, 0, 1);
+$white: #fff;
+
+$primary-font: "Lab Grotesque", "Arial", sans-serif;
+
+// Body
+$base-text-color: $black !default;
+$base-background-color: $white !default;
+$base-font-size: 14px !default;
+$base-font-weight: 400;
+$base-line-height: 24px !default;
+$base-font-family: $primary-font !default;
+$base-min-width: 320px;
+
+// Headers
+$h1-font-size: 28px !default;
+$h2-font-size: 14px !default;
+$h2-font-weight: 500 !default;
+
+$headings-font-family: $primary-font !default;
+$headings-color: inherit !default;
+
+//Links
+$a-font-size: 16px !default;
+$base-link-color: rgba(255, 255, 255, 1);
+$base-link-background: linear-gradient(
+    255.35deg,
+    #dc3131 0.83%,
+    rgba(255, 79, 79, 0) 108.93%
+  ),
+  linear-gradient(0deg, #ff5e56, #ff5e56);
+$base-link-hover: rgba(234, 0, 41, 1);
+$base-link-shadows: 0px 0px 24px 0px rgba(234, 0, 41, 0.33);
+$base-link-border-radius: 6px;
+
+//Buttons
+//Disable btn
+$btn-payment-disable: rgba(190, 197, 204, 1);
+
+//calculation btn
+$btn-calculation: rgba(234, 0, 41, 1);
+
+//Big btn
+$btn-background: linear-gradient(
+    255.35deg,
+    #dc3131 0.83%,
+    rgba(255, 79, 79, 0) 108.93%
+  ),
+  linear-gradient(0deg, #ff5e56, #ff5e56);
+$btn-hover: rgba(234, 0, 41, 1);
+$big-btn-shadows: 0px 0px 24px 0px rgba(234, 0, 41, 0.33);
+
+//Small btn
+$small-btn: rgba(234, 0, 41, 1);
+$btn-payment-hover: rgba(255, 255, 255, 1);
+
+//categories btn
+$btn-background-payment: linear-gradient(
+    255.35deg,
+    #dc3131 0.83%,
+    rgba(255, 79, 79, 0) 108.93%
+  ),
+  linear-gradient(0deg, #ff5e56, #ff5e56);
+
+//Inputs
+$placeholder-color: rgba(190, 197, 204, 1);
+$input-border: rgba(223, 227, 230, 1);
+$input-border-hover: rgba(0, 0, 0, 1);
+$input-invalid: rgba(234, 0, 41, 1);

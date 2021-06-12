@@ -1,0 +1,43 @@
+.calculation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    input[type="text"] {
+      padding-left: 8px;
+      margin-top: 8px;
+      border: 1px solid $input-border;
+      border-radius: 3px;
+      height: 40px;
+      width: 288px;
+      &::placeholder {
+        color: $placeholder-color;
+      }
+      &:hover {
+        border: 1px solid $input-border-hover;
+      }
+    }
+
+    .input-border-invalid {
+      border: 1px solid rgba(234, 0, 41, 1) !important;
+    }
+
+    .input-invalid {
+      color: $input-invalid;
+      margin-bottom: 4px;
+      font-size: 10px;
+    }
+  }
+
+  .btn-calculation {
+    color: $btn-calculation;
+    margin-top: 8px;
+    margin-bottom: 24px;
+  }
+  .btn-calculation:disabled {
+    color: $btn-payment-disable;
+  }
+}
+
